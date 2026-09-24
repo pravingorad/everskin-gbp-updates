@@ -1,0 +1,300 @@
+{
+  "clinic": {
+    "name": "Everskin — The Aesthetic Skin Clinic",
+    "doctor": "Dr. Manisha Kolekar (BHMS, PGDCC)",
+    "location": "Pimple Saudagar, Pune",
+    "phone": "+91-9561296699",
+    "website": "https://everskin.co.in",
+    "booking_url": "https://everskin.co.in/book-appointment",
+    "areas_served": "Pimple Saudagar, Wakad, Baner, Aundh, Rahatani, Hinjewadi"
+  },
+  "services": [
+    {
+      "id": 1,
+      "name": "Acne & Pimple Treatment",
+      "category": "Skin Conditions",
+      "posts": [
+        {
+          "summary": "Struggling with acne that just won't go away? ✨\n\nAt Everskin, Dr. Manisha Kolekar (BHMS, PGDCC) creates personalised acne treatment plans that target the root cause — not just the surface.\n\nOur advanced acne protocols combine medical-grade treatments for visible results within weeks.\n\n📍 Pimple Saudagar | Serving Wakad, Baner, Aundh & Hinjewadi\n📞 +91-9561296699\n\nBook your consultation today → everskin.co.in"
+        },
+        {
+          "summary": "Acne doesn’t just affect your skin — it affects your confidence. 💜\n\nAt Everskin, we’ve helped hundreds of patients in Pune say goodbye to breakouts with targeted, medically-guided treatments.\n\n✅ Personalised treatment plans\n✅ Medical-grade procedures\n✅ Visible results, no guesswork\n\nConsult Dr. Manisha Kolekar — BHMS, PGDCC — at our Pimple Saudagar clinic.\n\n📞 +91-9561296699 | everskin.co.in"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Acne Scar Treatment",
+      "category": "Skin Conditions",
+      "posts": [
+        {
+          "summary": "Acne is gone — but the scars remain? We can help. 💪\n\nEverskin specialises in advanced acne scar treatments including RF Microneedling and CO2 Laser Resurfacing — proven to significantly reduce even deep, stubborn scars.\n\n★ Medically supervised\n★ Customised to your skin type\n★ Clinically proven results\n\nDr. Manisha Kolekar | BHMS, PGDCC | Pimple Saudagar, Pune\n\n📞 +91-9561296699 | everskin.co.in"
+        },
+        {
+          "summary": "Deep acne scars don’t have to be permanent. ✨\n\nOur combination scar treatments at Everskin target all scar types — ice pick, boxcar, rolling — for smoother, clearer skin.\n\nPatients see dramatic improvement within 3–6 sessions.\n\n📍 Everskin, Pimple Saudagar | Near Wakad, Baner, Aundh\n📞 +91-9561296699\n\nBook now → everskin.co.in/book-appointment"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Skin Pigmentation Treatment",
+      "category": "Skin Conditions",
+      "posts": [
+        {
+          "summary": "Uneven skin tone? Dark patches? You deserve clear, even skin. ✨\n\nAt Everskin, we treat all types of skin pigmentation using advanced laser and chemical protocols tailored to Indian skin tones.\n\n✅ Safe for all skin types\n✅ Medically supervised by Dr. Manisha Kolekar (BHMS, PGDCC)\n✅ Visible results in 2–4 sessions\n\n📍 Pimple Saudagar, Pune\n📞 +91-9561296699 | everskin.co.in"
+        },
+        {
+          "summary": "Pigmentation, dark spots, or uneven tone — these are more common than you think, and very treatable. 🌟\n\nEverskin’s pigmentation protocols are designed specifically for Indian skin, combining Q-Switched laser, peels, and targeted topicals.\n\nResults that last.\n\n📍 Everskin, Pimple Saudagar | +91-9561296699\n\nConsult today → everskin.co.in"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Melasma Treatment",
+      "category": "Skin Conditions",
+      "posts": [
+        {
+          "summary": "Melasma is stubborn — but not unbeatable. 💪\n\nAt Everskin, we’ve helped patients see dramatic improvement in melasma in as little as 3 months using our advanced combination treatment approach.\n\nDr. Manisha Kolekar (BHMS, PGDCC) specialises in melasma management for Indian skin.\n\n📍 Pimple Saudagar, Pune | Serving Wakad, Baner & Hinjewadi\n📞 +91-9561296699 | everskin.co.in"
+        },
+        {
+          "summary": "“Dramatic improvement in 3 months” — real patient, real results at Everskin. ✨\n\nMelasma requires more than a cream — it needs a medically supervised, multi-step approach. That’s exactly what we provide.\n\n✅ Q-Switched Laser\n✅ Chemical Peels\n✅ Customised home-care protocol\n\n📍 Everskin, Pimple Saudagar | +91-9561296699\n\nBook → everskin.co.in/book-appointment"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Anti-Aging Treatment",
+      "category": "Skin Conditions",
+      "posts": [
+        {
+          "summary": "Aging is natural — looking tired doesn’t have to be. ✨\n\nEverskin offers a full range of anti-aging treatments — from HIFU non-surgical facelifts to RF Microneedling — to restore firmness, radiance, and youth to your skin.\n\nDr. Manisha Kolekar | BHMS, PGDCC | Aesthetic Specialist\n\n📍 Pimple Saudagar, Pune\n📞 +91-9561296699 | everskin.co.in"
+        },
+        {
+          "summary": "Fine lines, sagging skin, loss of glow — your skin has solutions. 💜\n\nAt Everskin, we combine scientifically proven anti-aging technologies to turn back the clock — without surgery.\n\n✅ HIFU Facelift\n✅ RF Microneedling\n✅ Mesotherapy\n✅ Anti-Aging Facials\n\n📍 Pimple Saudagar | +91-9561296699 | everskin.co.in"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Under-Eye Dark Circle Treatment",
+      "category": "Skin Conditions",
+      "posts": [
+        {
+          "summary": "Tired of looking tired? 😔\n\nDark circles under the eyes can be caused by pigmentation, hollowness, or thin skin — each needs a different approach.\n\nAt Everskin, Dr. Manisha Kolekar (BHMS, PGDCC) diagnoses the exact cause and designs a targeted treatment plan.\n\nLooking refreshed and rested is possible.\n\n📍 Pimple Saudagar, Pune | +91-9561296699 | everskin.co.in"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Laser Hair Removal",
+      "category": "Laser Treatments",
+      "posts": [
+        {
+          "summary": "Say goodbye to razors and waxing — permanently. ✨\n\nEverskin’s Laser Hair Removal is safe, effective, and suitable for all skin tones. Most patients achieve 80–90% permanent reduction in 6–8 sessions.\n\n✅ Painless technology\n✅ FDA-approved equipment\n✅ All body areas covered\n\n📍 Pimple Saudagar, Pune | Serving Wakad, Baner, Hinjewadi\n📞 +91-9561296699 | everskin.co.in"
+        },
+        {
+          "summary": "Laser Hair Removal at Everskin — because smooth skin shouldn’t require weekly effort. 🚀\n\nOur advanced laser systems target hair at the root for permanent reduction — safely and effectively on Indian skin tones.\n\nBook a free consultation and get a personalised session plan.\n\n📍 Pimple Saudagar | +91-9561296699\n\nBook → everskin.co.in/book-appointment"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "CO2 Laser Skin Resurfacing",
+      "category": "Laser Treatments",
+      "posts": [
+        {
+          "summary": "CO2 Laser Resurfacing — the gold standard for skin renewal. ✨\n\nAt Everskin, our CO2 Laser treatment dramatically improves acne scars, fine lines, enlarged pores, and uneven texture — in as few as 1–2 sessions.\n\nMedically supervised by Dr. Manisha Kolekar (BHMS, PGDCC).\n\n📍 Pimple Saudagar, Pune\n📞 +91-9561296699 | everskin.co.in"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Q-Switched Nd:YAG Laser",
+      "category": "Laser Treatments",
+      "posts": [
+        {
+          "summary": "Q-Switched Laser — your solution for pigmentation, melasma, and dull skin. 🌟\n\nAt Everskin, our Q-Switched Nd:YAG Laser treatment targets deep pigmentation, sun damage, and uneven tone — with zero downtime.\n\nSafe for Indian skin. Proven results.\n\nDr. Manisha Kolekar | BHMS, PGDCC | Pimple Saudagar, Pune\n\n📞 +91-9561296699 | everskin.co.in"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "RF Microneedling",
+      "category": "Laser Treatments",
+      "posts": [
+        {
+          "summary": "RF Microneedling — collagen rebuilding from the inside out. ✨\n\nThis advanced treatment combines radiofrequency energy with micro-needling to tighten skin, reduce scars, minimize pores, and restore youthful firmness.\n\nOne of our most popular treatments at Everskin, Pimple Saudagar.\n\n★ Dr. Manisha Kolekar | BHMS, PGDCC\n📞 +91-9561296699 | everskin.co.in"
+        },
+        {
+          "summary": "Want tighter, smoother, younger-looking skin — without surgery? 💪\n\nRF Microneedling at Everskin delivers deep skin remodelling using radiofrequency + microneedles — ideal for acne scars, open pores, and skin laxity.\n\nResults build over 4–8 weeks post-treatment.\n\n📍 Pimple Saudagar | +91-9561296699 | everskin.co.in"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "HIFU Non-Surgical Facelift",
+      "category": "Laser Treatments",
+      "posts": [
+        {
+          "summary": "A facelift — without the surgery. Introducing HIFU at Everskin. ✨\n\nHIFU (High Intensity Focused Ultrasound) lifts and tightens skin on the face, jawline, and neck — in a single session, with no downtime.\n\nResults develop over 2–3 months and last up to 18 months.\n\nDr. Manisha Kolekar | BHMS, PGDCC | Pimple Saudagar, Pune\n\n📞 +91-9561296699 | everskin.co.in"
+        },
+        {
+          "summary": "Lift. Tighten. Rejuvenate. No surgery. No downtime. 🚀\n\nHIFU Facelift at Everskin is the most advanced non-surgical skin tightening treatment available — stimulating deep collagen for a natural, lasting lift.\n\nOne session. Results that last up to 18 months.\n\n📍 Pimple Saudagar | +91-9561296699\n\nBook → everskin.co.in/book-appointment"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Photofacial Treatment",
+      "category": "Laser Treatments",
+      "posts": [
+        {
+          "summary": "Glow like never before with Photofacial at Everskin. 🌟\n\nOur Photofacial treatment uses targeted light energy to reduce pigmentation, redness, sun damage, and dullness — revealing fresher, brighter skin underneath.\n\nZero downtime. Instant glow.\n\n📍 Pimple Saudagar, Pune | +91-9561296699 | everskin.co.in"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Laser Tattoo Removal",
+      "category": "Laser Treatments",
+      "posts": [
+        {
+          "summary": "Changed your mind about that tattoo? We’ve got you. 🙌\n\nEverskin’s Laser Tattoo Removal uses advanced Q-Switched laser technology to safely break down tattoo ink — with minimal discomfort and no scarring.\n\nSafe for all skin tones. Multiple sessions based on tattoo size and ink depth.\n\n📍 Pimple Saudagar | +91-9561296699 | everskin.co.in"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Chemical Peel Treatment",
+      "category": "Peels & Skin Renewal",
+      "posts": [
+        {
+          "summary": "Dull skin? Uneven texture? Time for a reset. ✨\n\nChemical Peels at Everskin are medical-grade, precisely formulated treatments that exfoliate the skin’s surface — revealing clearer, smoother, brighter skin underneath.\n\nCustomised to your skin type and concern by Dr. Manisha Kolekar (BHMS, PGDCC).\n\n📍 Pimple Saudagar, Pune | +91-9561296699 | everskin.co.in"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Yellow Peel Treatment",
+      "category": "Peels & Skin Renewal",
+      "posts": [
+        {
+          "summary": "Introducing Yellow Peel — one of the most effective treatments for pigmentation and skin renewal. 🟡\n\nThe Yellow Peel (Retinoic Acid Peel) at Everskin delivers deep skin resurfacing, reduces pigmentation, and dramatically improves skin texture — with visible results after just 1 session.\n\nMedically supervised. Proven effective for Indian skin.\n\n📍 Pimple Saudagar | +91-9561296699 | everskin.co.in"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Pumpkin Peel Facial",
+      "category": "Peels & Skin Renewal",
+      "posts": [
+        {
+          "summary": "Natural. Effective. Glowing. Meet the Pumpkin Peel Facial. 🎃\n\nRich in enzymes, antioxidants, and Vitamin A & C, the Pumpkin Peel exfoliates and nourishes — perfect for brightening dull skin and reducing fine lines.\n\nA fan favourite at Everskin, Pimple Saudagar.\n\n📞 +91-9561296699 | everskin.co.in"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "HydraFacial",
+      "category": "Signature Facials",
+      "posts": [
+        {
+          "summary": "HydraFacial at Everskin — deep cleanse, exfoliate, extract, hydrate. In one session. ✨\n\nThe world’s #1 non-invasive facial. HydraFacial delivers instant glow, deep pore cleaning, and intense hydration — with zero downtime.\n\nPerfect before events, or as a monthly skin reset.\n\n📍 Pimple Saudagar, Pune\n📞 +91-9561296699 | everskin.co.in"
+        },
+        {
+          "summary": "Want your skin to actually glow? 🌟\n\nHydraFacial is the treatment celebrities and skincare lovers swear by — and now it’s available at Everskin, Pimple Saudagar.\n\n✅ Deep cleanse\n✅ Exfoliation\n✅ Extraction\n✅ Hydration serum infusion\n\nInstant results. No redness. No downtime.\n\n📞 +91-9561296699 | everskin.co.in/book-appointment"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Vampire Facial (PRP Facial)",
+      "category": "Signature Facials",
+      "posts": [
+        {
+          "summary": "Your skin’s own healing power — amplified. Introducing the Vampire Facial. 🩸\n\nThe Vampire Facial (PRP Facial) uses your own platelet-rich plasma to stimulate collagen, reduce scars, and deliver a deep, natural skin renewal.\n\nOne of our most powerful anti-aging and skin rejuvenation treatments at Everskin.\n\n📍 Pimple Saudagar | +91-9561296699 | everskin.co.in"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Carbon Laser Facial",
+      "category": "Signature Facials",
+      "posts": [
+        {
+          "summary": "The Hollywood Glow is real — and it’s here in Pimple Saudagar. ⭐\n\nThe Carbon Laser Facial at Everskin deep-cleanses pores, controls oil, reduces acne, and delivers instant luminosity — in just 30 minutes.\n\nZero downtime. Instant glow. Walk-in, walk out glowing.\n\n📞 +91-9561296699 | everskin.co.in"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Korean Glass Skin Facial",
+      "category": "Signature Facials",
+      "posts": [
+        {
+          "summary": "Glass skin isn’t just a filter — it’s achievable. ✨\n\nThe Korean Glass Skin Facial at Everskin uses a layered hydration and brightening protocol inspired by Korean skincare science — for that coveted translucent, dewy, poreless finish.\n\nAchieve real glass skin results in Pimple Saudagar, Pune.\n\n📞 +91-9561296699 | everskin.co.in"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Active Collagen Facial",
+      "category": "Signature Facials",
+      "posts": [
+        {
+          "summary": "Collagen is the secret to youthful skin — and it starts declining after 25. 🕒\n\nThe Active Collagen Facial at Everskin delivers concentrated collagen directly into the skin — plumping, firming, and reducing fine lines in a single session.\n\nIdeal for anti-aging maintenance and skin nourishment.\n\n📍 Pimple Saudagar | +91-9561296699 | everskin.co.in"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Teenage Clarifying Facial",
+      "category": "Signature Facials",
+      "posts": [
+        {
+          "summary": "Designed specifically for teenage skin. 🌟\n\nThe Teenage Clarifying Facial at Everskin is a gentle yet effective treatment for acne-prone, oily, and sensitive teen skin — without harsh chemicals or adult-strength treatments.\n\nHelp the young ones in your family start their skin health journey right.\n\n📍 Pimple Saudagar, Pune | +91-9561296699 | everskin.co.in"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Hair Loss Treatment",
+      "category": "Hair & Scalp",
+      "posts": [
+        {
+          "summary": "Hair loss is not just genetic — it’s treatable. 💪\n\nAt Everskin, our certified trichologist creates a personalised hair loss treatment plan addressing the root cause — whether hormonal, nutritional, or stress-related.\n\nStop losing hair. Start regrowing it.\n\n📍 Pimple Saudagar, Pune | +91-9561296699 | everskin.co.in"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "name": "PRP Hair & Skin Treatment",
+      "category": "Hair & Scalp",
+      "posts": [
+        {
+          "summary": "PRP — the science of using your own growth factors to heal. 🧬\n\nAt Everskin, PRP (Platelet Rich Plasma) therapy is used for both hair regrowth and skin rejuvenation — naturally stimulating your body’s own repair mechanisms.\n\nClinically proven for hair loss, thinning, and scalp health.\n\nDr. Manisha Kolekar | BHMS, PGDCC | Pimple Saudagar\n\n📞 +91-9561296699 | everskin.co.in"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "name": "GFC Hair & Skin Treatment",
+      "category": "Hair & Scalp",
+      "posts": [
+        {
+          "summary": "GFC — the next evolution beyond PRP for hair regrowth. 🌱\n\nGFC (Growth Factor Concentrate) therapy at Everskin delivers a higher concentration of growth factors than traditional PRP — making it more powerful for hair regrowth and scalp health.\n\nNew to Pimple Saudagar. Available at Everskin.\n\n📞 +91-9561296699 | everskin.co.in/book-appointment"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "name": "Mesotherapy (Hair & Skin)",
+      "category": "Hair & Scalp",
+      "posts": [
+        {
+          "summary": "Mesotherapy — direct nourishment delivered exactly where your skin and hair need it most. ✨\n\nAt Everskin, Mesotherapy microinjections deliver a customised cocktail of vitamins, minerals, and growth factors directly into the scalp or skin — for accelerated hair regrowth and deep skin hydration.\n\n📍 Pimple Saudagar | +91-9561296699 | everskin.co.in"
+        }
+      ]
+    }
+  ]
+}

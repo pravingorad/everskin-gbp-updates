@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:everskin.co.in)",
+      "WebFetch(domain:share.google)",
+      "WebFetch(domain:www.google.com)",
+      "WebSearch",
+      "WebFetch(domain:www.worldofaesthetics.in)",
+      "WebFetch(domain:allureclinic.in)",
+      "WebFetch(domain:www.puneaesthetic.com)"
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+# ── Credentials — NEVER commit these ──────────────────
+credentials/token.json
+credentials/client_secret.json
+credentials/api_keys.json
+
+# ── Clinic photos (too large for git) ─────────────────
+data/clinic_photos/
+
+# ── Logs ──────────────────────────────────────────────
+logs/
+
+# ── Python ────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+.venv/

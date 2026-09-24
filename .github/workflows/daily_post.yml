@@ -1,0 +1,57 @@
+name: Everskin GBP Daily Post
+
+on:
+  schedule:
+    # 9:00 AM IST = 3:30 AM UTC — runs every day
+    - cron: '30 3 * * *'
+
+  # Allows manual trigger from GitHub Actions tab
+  workflow_dispatch:
+
+jobs:
+  post-to-gbp:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write   # Needed to commit posts_log.json back to repo
+
+    steps:
+      # ── 1. Checkout repo ────────────────────────────────────────────────────
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # ── 2. Setup Python ─────────────────────────────────────────────────────
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      # ── 3. Install dependencies ─────────────────────────────────────────────
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      # ── 4. Write credentials from GitHub Secrets ────────────────────────────
+      - name: Setup credentials
+        env:
+          GBP_TOKEN_JSON:   ${{ secrets.GBP_TOKEN_JSON }}
+          GBP_CONFIG_JSON:  ${{ secrets.GBP_CONFIG_JSON }}
+        run: |
+          mkdir -p credentials data
+          echo "$GBP_TOKEN_JSON"  > credentials/token.json
+          echo "$GBP_CONFIG_JSON" > data/gbp_config.json
+          echo "Credentials written successfully"
+
+      # ── 5. Run the daily post ────────────────────────────────────────────────
+      - name: Run daily GBP post
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python run_daily.py
+
+      # ── 6. Commit updated posts log back to repo ────────────────────────────
+      - name: Save posts log
+        run: |
+          git config --local user.email "gbp-bot@everskin.co.in"
+          git config --local user.name  "Everskin GBP Bot"
+          git add data/posts_log.json
+          git diff --staged --quiet || git commit -m "chore: update posts log [skip ci]"
+          git push
