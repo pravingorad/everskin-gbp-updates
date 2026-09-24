@@ -187,7 +187,7 @@ ACCURACY AND COMPLIANCE
 - Do not include a phone number in the post text — Google's post policy disallows phone numbers in the body, and the Call Now button already handles this
 
 FORMAT
-- Use as much of the space as the content genuinely supports: aim for 260–320 words, and 1,350–1,480 characters total. Google's hard limit is 1,500 characters — never exceed it, and never pad with filler just to hit the count
+- Use as much of the space as the content genuinely supports: aim for 220–280 words, and 1,100–1,300 characters total. Google will REJECT and fail to publish the entire post if it exceeds 1,500 characters — stay well clear of that limit rather than pushing close to it, and never pad with filler just to hit the count
 - Short paragraphs separated by line breaks
 - 3–4 emojis total, spread out, not clustered
 - No hashtags, no ALL CAPS
@@ -202,7 +202,25 @@ Output only the post text."""
         messages=[{"role": "user", "content": prompt}]
     )
 
-    return message.content[0].text.strip()
+    return enforce_char_limit(message.content[0].text.strip())
+
+# ── Character Limit Safety Net ────────────────────────────────────────────────
+def enforce_char_limit(text: str, limit: int = 1450) -> str:
+    """
+    GBP hard-rejects any post over 1500 characters (the whole post fails to
+    publish). The prompt targets ~1,300, but never trust an LLM to stay under
+    a hard limit on its own — this is the backstop that guarantees it.
+    """
+    if len(text) <= limit:
+        return text
+
+    truncated = text[:limit]
+    for sep in ("\n\n", ". ", "! ", "? ", "\n"):
+        idx = truncated.rfind(sep)
+        if idx > limit * 0.6:
+            return truncated[:idx + len(sep)].rstrip()
+
+    return truncated.rstrip()
 
 # ── Season Helper ─────────────────────────────────────────────────────────────
 def get_season(month: int) -> str:
