@@ -277,7 +277,7 @@ def main():
     config  = load_config()
     log     = load_reply_log()
 
-    location_name = config["location_name"]
+    location_name = f"{config['account_name']}/{config['location_name']}"
 
     # Fetch + filter
     reviews    = fetch_reviews(creds, location_name)
