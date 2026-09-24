@@ -147,7 +147,7 @@ def post_to_gbp(post_content: dict) -> dict:
     """
     creds         = get_valid_credentials()
     config        = load_config()
-    location_name = config["location_name"]
+    location_name = f"{config['account_name']}/{config['location_name']}"
 
     # Build post payload
     payload = {
