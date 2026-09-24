@@ -1,5 +1,17 @@
 {
-  "posted": [],
-  "last_service_index": 1,
+  "posted": [
+    {
+      "timestamp": "2026-09-24T19:03:50.646306",
+      "date": "2026-09-24",
+      "service": "Skin Pigmentation Treatment",
+      "category": "Skin Conditions",
+      "summary_preview": "Struggling with dark spots that won't fade, even after monsoon clouds arrive? ☁️\n\nSkin Pigmentation ...",
+      "photo_used": false,
+      "status": "success",
+      "post_id": "accounts/115726428088327430200/locations/5986617863041401316/localPosts/3147324533928739853",
+      "error": ""
+    }
+  ],
+  "last_service_index": 2,
   "last_post_index": 1
 }
