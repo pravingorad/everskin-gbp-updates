@@ -5,9 +5,7 @@ on:
     # Runs every 6 hours: 12 AM, 6 AM, 12 PM, 6 PM IST
     # IST = UTC+5:30 → 12:30 AM, 6:30 AM, 12:30 PM, 6:30 PM UTC
     - cron: '30 18 * * *'   # 12:00 AM IST
-    - cron: '0  1 * * *'    # 6:30 AM IST
     - cron: '0  7 * * *'    # 12:30 PM IST
-    - cron: '0  13 * * *'   # 6:30 PM IST
 
   # Manual trigger from GitHub Actions tab
   workflow_dispatch:

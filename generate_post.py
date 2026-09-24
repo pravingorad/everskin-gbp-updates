@@ -125,41 +125,57 @@ def generate_post_with_claude(service: dict, clinic: dict) -> str:
     season       = get_season(today.month)
     areas_served = clinic["areas_served"]
 
-    prompt = f"""You are writing a Google Business Profile (GBP) post for a premium aesthetic skin clinic in Pune, India.
+    prompt = f"""You are writing a Google Business Profile (GBP) update post for {clinic['name']}, a single-location aesthetic skin and hair clinic in Pimple Saudagar, Pune, India.
 
-CLINIC DETAILS:
+CLINIC DETAILS
 - Name: {clinic['name']}
 - Doctor: {clinic['doctor']}
-- Location: {clinic['location']}
-- Phone: {clinic['phone']}
-- Website: {clinic['website']}
-- Areas served: {areas_served}
+- Location: {clinic['location']} (one clinic only, no branches)
+- Nearby areas clients travel from: {areas_served}
 
-TODAY'S SERVICE TO FEATURE:
-- Service: {service['name']}
+TODAY'S SERVICE
+- Service (primary keyword): {service['name']}
 - Category: {service['category']}
+- Concerns it addresses (secondary keywords): {service.get('treats') or 'not specified'}
+- Related treatments also offered: {service.get('related_treatments') or 'none — do not mention any'}
 
-CONTEXT:
+CONTEXT
 - Day: {day_name}
 - Month: {month_name}
 - Season: {season}
 
-INSTRUCTIONS:
-1. Write ONE compelling GBP post about this service
-2. Length: 150–250 words
-3. Tone: warm, professional, trustworthy — not salesy
-4. Start with a hook (question, bold statement, or relatable problem)
-5. Mention the service benefits naturally (2–3 key points)
-6. Include the doctor's name and credentials once
-7. End with location + phone + website on separate lines
-8. Use 2–3 relevant emojis naturally (not excessive)
-9. Include a subtle seasonal or day-relevant angle if it fits naturally
-10. Format with line breaks for readability
-11. Do NOT use hashtags
-12. Do NOT use ALL CAPS
-13. The post must feel fresh and different — avoid generic phrases like "best clinic" or "world-class"
+CONTENT
+1. Write one post about this service only
+2. The first line is the hook (a question, relatable problem or bold statement) and stays under about 90 characters, because Google shows only the first line or two before "More". Work a concern from the list into the hook where it fits naturally
+3. Explain what the service helps with and give 2–3 genuine benefits in plain language
+4. Name "{clinic['doctor']}" once
+5. Add a seasonal or day-related angle only if it is genuinely relevant to this service
+6. Close with a soft invitation to book a consultation. The "Book" button is attached to the post separately
 
-Write only the post content. No intro, no explanation."""
+SEO (maximum relevance, zero stuffing — every keyword must sit inside a natural sentence)
+- Use the primary keyword "{service['name']}" within the first two sentences, and 2–3 times in total — never more
+- Use the exact phrase "{service['name']} in Pimple Saudagar, Pune" (or a close natural variant) exactly once. Service + location together matches how people actually search
+- Mention "{clinic['name']}" once
+- Weave in 2–3 different concerns from the secondary keyword list, each at most once, phrased the way a patient would describe them
+- Mention at most one related treatment, only if it adds value for the reader
+- You may add one sentence saying the clinic is easy to reach from up to three of the nearby areas (e.g. "Easily accessible from Wakad, Rahatani and Pimple Gurav"). Never write "Also serving: X | Y | Z" or anything implying branches there
+- Never list keywords separated by commas or pipes, never repeat the same phrase, and never add a keyword that doesn't serve the reader
+
+ACCURACY AND COMPLIANCE
+- Do not promise or guarantee results. Avoid "permanent", "painless", "guaranteed", "100%", "best clinic" and "world-class"
+- Do not invent statistics, session counts, prices, offers, equipment brands or approvals (e.g. "FDA-approved")
+- NEVER use the word "dermatologist" or "pharmacist"
+- Do not include phone numbers or URLs. Google's post policy disallows phone numbers in post text, and the Book button carries the link
+
+FORMAT
+- 120–200 words, and under 1,200 characters in total (Google's hard limit is 1,500)
+- Short paragraphs separated by line breaks
+- 2–3 emojis in total
+- No hashtags, no ALL CAPS
+- Use British/Indian English spelling (e.g. "personalised")
+- The post must feel fresh, not like a template
+
+Output only the post text."""
 
     message = client.messages.create(
         model="claude-sonnet-4-5",
