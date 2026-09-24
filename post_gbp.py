@@ -150,14 +150,16 @@ def post_to_gbp(post_content: dict) -> dict:
     location_name = f"{config['account_name']}/{config['location_name']}"
 
     # Build post payload
+    action_type = post_content["call_to_action"]["action_type"]
+    call_to_action = {"actionType": action_type}
+    if action_type != "CALL":
+        call_to_action["url"] = post_content["call_to_action"]["url"]
+
     payload = {
         "languageCode": "en-IN",
         "summary":      post_content["summary"],
         "topicType":    "STANDARD",
-        "callToAction": {
-            "actionType": post_content["call_to_action"]["action_type"],
-            "url":        post_content["call_to_action"]["url"]
-        }
+        "callToAction": call_to_action
     }
 
     # Attach photo if available

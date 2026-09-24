@@ -125,11 +125,30 @@ def generate_post_with_claude(service: dict, clinic: dict) -> str:
     season       = get_season(today.month)
     areas_served = clinic["areas_served"]
 
+    # GFC/PRP are injectable, doctor-administered treatments — Priyanka isn't named for these
+    doctor_only = any(kw in service["name"].upper() for kw in ("GFC", "PRP"))
+
+    if doctor_only:
+        practitioner_details = f"- Doctor: {clinic['doctor']} — expert cosmetologist and trichologist"
+        practitioner_instruction = (
+            f'4. Name "{clinic["doctor"]}" once, described as an expert cosmetologist and trichologist. '
+            f'Do NOT mention "{clinic["co_owner"]}" in this post — this treatment is administered by the doctor only'
+        )
+    else:
+        practitioner_details = (
+            f"- Doctor: {clinic['doctor']} — expert cosmetologist and trichologist\n"
+            f"- Co-owner: {clinic['co_owner']} — expert cosmetologist and trichologist"
+        )
+        practitioner_instruction = (
+            f'4. Name "{clinic["doctor"]}" once and "{clinic["co_owner"]}" once, each described as an expert '
+            f'cosmetologist and trichologist — naturally, they don\'t need to be in the same sentence'
+        )
+
     prompt = f"""You are writing a Google Business Profile (GBP) update post for {clinic['name']}, a single-location aesthetic skin and hair clinic in Pimple Saudagar, Pune, India.
 
 CLINIC DETAILS
 - Name: {clinic['name']}
-- Doctor: {clinic['doctor']}
+{practitioner_details}
 - Location: {clinic['location']} (one clinic only, no branches)
 - Nearby areas clients travel from: {areas_served}
 
@@ -147,33 +166,33 @@ CONTEXT
 CONTENT
 1. Write one post about this service only
 2. The first line is the hook (a question, relatable problem or bold statement) and stays under about 90 characters, because Google shows only the first line or two before "More". Work a concern from the list into the hook where it fits naturally
-3. Explain what the service helps with and give 2–3 genuine benefits in plain language
-4. Name "{clinic['doctor']}" once
+3. Explain what the service is, who it's good for, and how it helps — give 3–4 genuine benefits in plain language, with enough substance that it reads like a short, useful explainer rather than an ad
+{practitioner_instruction}
 5. Add a seasonal or day-related angle only if it is genuinely relevant to this service
-6. Close with a soft invitation to book a consultation. The "Book" button is attached to the post separately
+6. Close with a soft invitation: appointments can be made by calling (the "Call Now" button is attached separately) or by booking online at {clinic['website']} — mention the website once, as plain text, not as a clickable-looking link
 
-SEO (maximum relevance, zero stuffing — every keyword must sit inside a natural sentence)
-- Use the primary keyword "{service['name']}" within the first two sentences, and 2–3 times in total — never more
+SEO (maximum relevance, zero stuffing — every keyword must sit inside a natural sentence, and never as a list)
+- Use the primary keyword "{service['name']}" within the first two sentences, and 3–4 times in total across the post — never more, and never back-to-back
 - Use the exact phrase "{service['name']} in Pimple Saudagar, Pune" (or a close natural variant) exactly once. Service + location together matches how people actually search
 - Mention "{clinic['name']}" once
-- Weave in 2–3 different concerns from the secondary keyword list, each at most once, phrased the way a patient would describe them
-- Mention at most one related treatment, only if it adds value for the reader
-- You may add one sentence saying the clinic is easy to reach from up to three of the nearby areas (e.g. "Easily accessible from Wakad, Rahatani and Pimple Gurav"). Never write "Also serving: X | Y | Z" or anything implying branches there
-- Never list keywords separated by commas or pipes, never repeat the same phrase, and never add a keyword that doesn't serve the reader
+- Weave in all of the concerns from the secondary keyword list that genuinely fit, each at most once, phrased the way a patient would describe them — don't skip ones that fit just to keep the post short
+- Mention up to two related treatments from the list, only where they add real value (e.g. "often paired with X for Y")
+- Add one sentence saying the clinic is easy to reach from up to three of the nearby areas (e.g. "Easily accessible from Wakad, Rahatani and Pimple Gurav"). Never write "Also serving: X | Y | Z" or anything implying branches there
+- Never list keywords separated by commas or pipes, never repeat the same phrase twice, and never add a keyword that doesn't serve the reader — length comes from genuinely useful detail, not from stuffing
 
 ACCURACY AND COMPLIANCE
 - Do not promise or guarantee results. Avoid "permanent", "painless", "guaranteed", "100%", "best clinic" and "world-class"
 - Do not invent statistics, session counts, prices, offers, equipment brands or approvals (e.g. "FDA-approved")
 - NEVER use the word "dermatologist" or "pharmacist"
-- Do not include phone numbers or URLs. Google's post policy disallows phone numbers in post text, and the Book button carries the link
+- Do not include a phone number in the post text — Google's post policy disallows phone numbers in the body, and the Call Now button already handles this
 
 FORMAT
-- 120–200 words, and under 1,200 characters in total (Google's hard limit is 1,500)
+- Use as much of the space as the content genuinely supports: aim for 260–320 words, and 1,350–1,480 characters total. Google's hard limit is 1,500 characters — never exceed it, and never pad with filler just to hit the count
 - Short paragraphs separated by line breaks
-- 2–3 emojis in total
+- 3–4 emojis total, spread out, not clustered
 - No hashtags, no ALL CAPS
 - Use British/Indian English spelling (e.g. "personalised")
-- The post must feel fresh, not like a template
+- The post must feel fresh and informative, not like a template or an ad
 
 Output only the post text."""
 
@@ -223,8 +242,7 @@ def get_next_post() -> dict:
         "summary":      post_text,
         "photo_path":   photo_path,
         "call_to_action": {
-            "action_type": "BOOK",
-            "url": clinic["booking_url"]
+            "action_type": "CALL"
         },
         "rotation_info": {
             "service_index": idx,
