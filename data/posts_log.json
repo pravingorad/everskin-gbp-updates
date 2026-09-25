@@ -21,8 +21,19 @@
       "status": "success",
       "post_id": "accounts/115726428088327430200/locations/5986617863041401316/localPosts/5727116012907150388",
       "error": ""
+    },
+    {
+      "timestamp": "2026-09-25T09:00:30.011085",
+      "date": "2026-09-25",
+      "service": "Anti-Aging Treatment",
+      "category": "Skin Conditions",
+      "summary_preview": "Are fine lines and sagging skin making you look tired?\n\nAnti-Aging Treatment at Everskin — The Aesth...",
+      "photo_used": false,
+      "status": "success",
+      "post_id": "accounts/115726428088327430200/locations/5986617863041401316/localPosts/3912481979600982176",
+      "error": ""
     }
   ],
-  "last_service_index": 3,
+  "last_service_index": 4,
   "last_post_index": 1
 }
