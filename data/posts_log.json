@@ -32,8 +32,19 @@
       "status": "success",
       "post_id": "accounts/115726428088327430200/locations/5986617863041401316/localPosts/3912481979600982176",
       "error": ""
+    },
+    {
+      "timestamp": "2026-09-26T08:46:05.225457",
+      "date": "2026-09-26",
+      "service": "Under-Eye Dark Circle Treatment",
+      "category": "Skin Conditions",
+      "summary_preview": "Tired-looking eyes making you feel older than you are?\n\nUnder-Eye Dark Circle Treatment at Everskin ...",
+      "photo_used": false,
+      "status": "success",
+      "post_id": "accounts/115726428088327430200/locations/5986617863041401316/localPosts/690873498292033663",
+      "error": ""
     }
   ],
-  "last_service_index": 4,
+  "last_service_index": 5,
   "last_post_index": 1
 }
