@@ -43,8 +43,19 @@
       "status": "success",
       "post_id": "accounts/115726428088327430200/locations/5986617863041401316/localPosts/690873498292033663",
       "error": ""
+    },
+    {
+      "timestamp": "2026-09-27T09:27:07.117726",
+      "date": "2026-09-27",
+      "service": "Laser Hair Removal",
+      "category": "Laser Treatments",
+      "summary_preview": "Tired of dealing with unwanted body and facial hair that keeps coming back?\n\nLaser Hair Removal offe...",
+      "photo_used": false,
+      "status": "success",
+      "post_id": "accounts/115726428088327430200/locations/5986617863041401316/localPosts/728061514607944940",
+      "error": ""
     }
   ],
-  "last_service_index": 5,
+  "last_service_index": 6,
   "last_post_index": 1
 }
