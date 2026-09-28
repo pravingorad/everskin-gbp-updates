@@ -54,8 +54,19 @@
       "status": "success",
       "post_id": "accounts/115726428088327430200/locations/5986617863041401316/localPosts/728061514607944940",
       "error": ""
+    },
+    {
+      "timestamp": "2026-09-28T10:04:00.457865",
+      "date": "2026-09-28",
+      "service": "CO2 Laser Skin Resurfacing",
+      "category": "Laser Treatments",
+      "summary_preview": "Struggling with deep acne scars that won't fade no matter what you try?\n\nCO2 Laser Skin Resurfacing ...",
+      "photo_used": false,
+      "status": "success",
+      "post_id": "accounts/115726428088327430200/locations/5986617863041401316/localPosts/3751769261677748236",
+      "error": ""
     }
   ],
-  "last_service_index": 6,
+  "last_service_index": 7,
   "last_post_index": 1
 }
