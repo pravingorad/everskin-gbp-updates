@@ -76,8 +76,19 @@
       "status": "success",
       "post_id": "accounts/115726428088327430200/locations/5986617863041401316/localPosts/2953487821894389235",
       "error": ""
+    },
+    {
+      "timestamp": "2026-09-30T09:55:23.393784",
+      "date": "2026-09-30",
+      "service": "RF Microneedling",
+      "category": "Laser Treatments",
+      "summary_preview": "Tired of stubborn acne scars that won't fade, even with good skincare?\n\nRF Microneedling combines ra...",
+      "photo_used": false,
+      "status": "success",
+      "post_id": "accounts/115726428088327430200/locations/5986617863041401316/localPosts/4837967196730870387",
+      "error": ""
     }
   ],
-  "last_service_index": 8,
+  "last_service_index": 9,
   "last_post_index": 1
 }
