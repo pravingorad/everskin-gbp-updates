@@ -87,8 +87,19 @@
       "status": "success",
       "post_id": "accounts/115726428088327430200/locations/5986617863041401316/localPosts/4837967196730870387",
       "error": ""
+    },
+    {
+      "timestamp": "2026-10-01T10:22:10.322610",
+      "date": "2026-10-01",
+      "service": "HIFU Non-Surgical Facelift",
+      "category": "Laser Treatments",
+      "summary_preview": "Noticing sagging skin along your jawline or loss of firmness?\n\nA HIFU Non-Surgical Facelift uses foc...",
+      "photo_used": false,
+      "status": "success",
+      "post_id": "accounts/115726428088327430200/locations/5986617863041401316/localPosts/8744408153853354009",
+      "error": ""
     }
   ],
-  "last_service_index": 9,
+  "last_service_index": 10,
   "last_post_index": 1
 }
