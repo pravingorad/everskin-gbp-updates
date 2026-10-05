@@ -98,8 +98,19 @@
       "status": "success",
       "post_id": "accounts/115726428088327430200/locations/5986617863041401316/localPosts/8744408153853354009",
       "error": ""
+    },
+    {
+      "timestamp": "2026-10-05T18:00:22.716625",
+      "date": "2026-10-05",
+      "service": "Photofacial Treatment",
+      "category": "Laser Treatments",
+      "summary_preview": "Dealing with stubborn pigmentation or dull, uneven skin tone?\n\nPhotofacial Treatment uses targeted l...",
+      "photo_used": false,
+      "status": "success",
+      "post_id": "accounts/115726428088327430200/locations/5986617863041401316/localPosts/1232093912298691606",
+      "error": ""
     }
   ],
-  "last_service_index": 10,
+  "last_service_index": 11,
   "last_post_index": 1
 }
