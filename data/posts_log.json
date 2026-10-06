@@ -109,8 +109,19 @@
       "status": "success",
       "post_id": "accounts/115726428088327430200/locations/5986617863041401316/localPosts/1232093912298691606",
       "error": ""
+    },
+    {
+      "timestamp": "2026-10-06T10:37:51.140833",
+      "date": "2026-10-06",
+      "service": "Laser Tattoo Removal",
+      "category": "Laser Treatments",
+      "summary_preview": "Regretting that old tattoo and ready to move on?\n\nLaser Tattoo Removal at Everskin — The Aesthetic S...",
+      "photo_used": false,
+      "status": "success",
+      "post_id": "accounts/115726428088327430200/locations/5986617863041401316/localPosts/227892097250279448",
+      "error": ""
     }
   ],
-  "last_service_index": 11,
+  "last_service_index": 12,
   "last_post_index": 1
 }
