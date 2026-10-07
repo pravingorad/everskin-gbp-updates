@@ -120,8 +120,19 @@
       "status": "success",
       "post_id": "accounts/115726428088327430200/locations/5986617863041401316/localPosts/227892097250279448",
       "error": ""
+    },
+    {
+      "timestamp": "2026-10-07T10:28:58.008579",
+      "date": "2026-10-07",
+      "service": "Chemical Peel Treatment",
+      "category": "Peels & Skin Renewal",
+      "summary_preview": "Dull skin, stubborn pigmentation, or lingering acne marks holding you back?\n\nChemical Peel Treatment...",
+      "photo_used": false,
+      "status": "success",
+      "post_id": "accounts/115726428088327430200/locations/5986617863041401316/localPosts/1086548819435292743",
+      "error": ""
     }
   ],
-  "last_service_index": 12,
+  "last_service_index": 13,
   "last_post_index": 1
 }
