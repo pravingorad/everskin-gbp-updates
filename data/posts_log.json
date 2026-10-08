@@ -131,8 +131,19 @@
       "status": "success",
       "post_id": "accounts/115726428088327430200/locations/5986617863041401316/localPosts/1086548819435292743",
       "error": ""
+    },
+    {
+      "timestamp": "2026-10-08T10:49:58.047764",
+      "date": "2026-10-08",
+      "service": "Yellow Peel Treatment",
+      "category": "Peels & Skin Renewal",
+      "summary_preview": "Struggling with deep pigmentation that won't fade with creams alone?\n\nYellow Peel Treatment is a spe...",
+      "photo_used": false,
+      "status": "success",
+      "post_id": "accounts/115726428088327430200/locations/5986617863041401316/localPosts/274058345561043163",
+      "error": ""
     }
   ],
-  "last_service_index": 13,
+  "last_service_index": 14,
   "last_post_index": 1
 }
