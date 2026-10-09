@@ -142,8 +142,19 @@
       "status": "success",
       "post_id": "accounts/115726428088327430200/locations/5986617863041401316/localPosts/274058345561043163",
       "error": ""
+    },
+    {
+      "timestamp": "2026-10-09T10:48:29.292546",
+      "date": "2026-10-09",
+      "service": "Pumpkin Peel Facial",
+      "category": "Peels & Skin Renewal",
+      "summary_preview": "Dull skin taking the glow off your festive plans? ✨\n\nA Pumpkin Peel Facial is a gentle enzyme-based ...",
+      "photo_used": false,
+      "status": "success",
+      "post_id": "accounts/115726428088327430200/locations/5986617863041401316/localPosts/1574612115601324973",
+      "error": ""
     }
   ],
-  "last_service_index": 14,
+  "last_service_index": 15,
   "last_post_index": 1
 }
