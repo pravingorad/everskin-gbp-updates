@@ -153,8 +153,19 @@
       "status": "success",
       "post_id": "accounts/115726428088327430200/locations/5986617863041401316/localPosts/1574612115601324973",
       "error": ""
+    },
+    {
+      "timestamp": "2026-10-10T10:03:18.540213",
+      "date": "2026-10-10",
+      "service": "HydraFacial",
+      "category": "Signature Facials",
+      "summary_preview": "Dull, dehydrated skin even after your usual skincare routine?\n\nA HydraFacial is a multi-step treatme...",
+      "photo_used": false,
+      "status": "success",
+      "post_id": "accounts/115726428088327430200/locations/5986617863041401316/localPosts/6794424879870975981",
+      "error": ""
     }
   ],
-  "last_service_index": 15,
+  "last_service_index": 16,
   "last_post_index": 1
 }
