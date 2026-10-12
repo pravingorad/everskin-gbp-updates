@@ -175,8 +175,19 @@
       "status": "success",
       "post_id": "accounts/115726428088327430200/locations/5986617863041401316/localPosts/7105526566433580254",
       "error": ""
+    },
+    {
+      "timestamp": "2026-10-12T11:12:36.457451",
+      "date": "2026-10-12",
+      "service": "Carbon Laser Facial",
+      "category": "Signature Facials",
+      "summary_preview": "Struggling with open pores and oily skin that won't settle down?\n\nA Carbon Laser Facial uses a layer...",
+      "photo_used": false,
+      "status": "success",
+      "post_id": "accounts/115726428088327430200/locations/5986617863041401316/localPosts/6742554317279706710",
+      "error": ""
     }
   ],
-  "last_service_index": 17,
+  "last_service_index": 18,
   "last_post_index": 1
 }
