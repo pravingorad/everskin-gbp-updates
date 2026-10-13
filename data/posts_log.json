@@ -186,8 +186,19 @@
       "status": "success",
       "post_id": "accounts/115726428088327430200/locations/5986617863041401316/localPosts/6742554317279706710",
       "error": ""
+    },
+    {
+      "timestamp": "2026-10-13T10:53:46.834638",
+      "date": "2026-10-13",
+      "service": "Korean Glass Skin Facial",
+      "category": "Signature Facials",
+      "summary_preview": "Dealing with dehydrated skin or visible pores that won't budge?\n\nThe Korean Glass Skin Facial is a m...",
+      "photo_used": false,
+      "status": "success",
+      "post_id": "accounts/115726428088327430200/locations/5986617863041401316/localPosts/7913904570337842412",
+      "error": ""
     }
   ],
-  "last_service_index": 18,
+  "last_service_index": 19,
   "last_post_index": 1
 }
