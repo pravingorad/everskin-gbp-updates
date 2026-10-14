@@ -197,8 +197,19 @@
       "status": "success",
       "post_id": "accounts/115726428088327430200/locations/5986617863041401316/localPosts/7913904570337842412",
       "error": ""
+    },
+    {
+      "timestamp": "2026-10-14T08:56:19.926223",
+      "date": "2026-10-14",
+      "service": "Active Collagen Facial",
+      "category": "Signature Facials",
+      "summary_preview": "Noticing loss of firmness or fine lines appearing more often than you'd like?\n\nAn Active Collagen Fa...",
+      "photo_used": false,
+      "status": "success",
+      "post_id": "accounts/115726428088327430200/locations/5986617863041401316/localPosts/6638562055340061086",
+      "error": ""
     }
   ],
-  "last_service_index": 19,
+  "last_service_index": 20,
   "last_post_index": 1
 }
