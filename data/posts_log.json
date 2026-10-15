@@ -208,8 +208,19 @@
       "status": "success",
       "post_id": "accounts/115726428088327430200/locations/5986617863041401316/localPosts/6638562055340061086",
       "error": ""
+    },
+    {
+      "timestamp": "2026-10-15T08:30:15.800148",
+      "date": "2026-10-15",
+      "service": "Teenage Clarifying Facial",
+      "category": "Signature Facials",
+      "summary_preview": "Is teen acne or oily skin making your teenager self-conscious?\n\nThe Teenage Clarifying Facial is des...",
+      "photo_used": false,
+      "status": "success",
+      "post_id": "accounts/115726428088327430200/locations/5986617863041401316/localPosts/8655319280509400748",
+      "error": ""
     }
   ],
-  "last_service_index": 20,
+  "last_service_index": 21,
   "last_post_index": 1
 }
