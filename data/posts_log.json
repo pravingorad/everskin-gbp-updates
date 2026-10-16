@@ -219,8 +219,19 @@
       "status": "success",
       "post_id": "accounts/115726428088327430200/locations/5986617863041401316/localPosts/8655319280509400748",
       "error": ""
+    },
+    {
+      "timestamp": "2026-10-16T08:23:45.163165",
+      "date": "2026-10-16",
+      "service": "Hair Loss Treatment",
+      "category": "Hair & Scalp",
+      "summary_preview": "Noticing more hair fall or thinning patches that weren't there before?\n\nHair Loss Treatment at Evers...",
+      "photo_used": false,
+      "status": "success",
+      "post_id": "accounts/115726428088327430200/locations/5986617863041401316/localPosts/2063599827945774695",
+      "error": ""
     }
   ],
-  "last_service_index": 21,
+  "last_service_index": 22,
   "last_post_index": 1
 }
