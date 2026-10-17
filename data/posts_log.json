@@ -230,8 +230,19 @@
       "status": "success",
       "post_id": "accounts/115726428088327430200/locations/5986617863041401316/localPosts/2063599827945774695",
       "error": ""
+    },
+    {
+      "timestamp": "2026-10-17T07:57:54.499400",
+      "date": "2026-10-17",
+      "service": "PRP Hair & Skin Treatment",
+      "category": "Hair & Scalp",
+      "summary_preview": "Struggling with hair fall or dull skin that won't bounce back naturally?\n\nPRP Hair & Skin Treatment ...",
+      "photo_used": false,
+      "status": "success",
+      "post_id": "accounts/115726428088327430200/locations/5986617863041401316/localPosts/7449814723233310920",
+      "error": ""
     }
   ],
-  "last_service_index": 22,
+  "last_service_index": 23,
   "last_post_index": 1
 }
