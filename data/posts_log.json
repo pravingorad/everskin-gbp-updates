@@ -241,8 +241,19 @@
       "status": "success",
       "post_id": "accounts/115726428088327430200/locations/5986617863041401316/localPosts/7449814723233310920",
       "error": ""
+    },
+    {
+      "timestamp": "2026-10-18T08:13:46.528903",
+      "date": "2026-10-18",
+      "service": "GFC Hair & Skin Treatment",
+      "category": "Hair & Scalp",
+      "summary_preview": "Noticing more hair fall or dull skin that won't bounce back?\n\nGFC Hair & Skin Treatment uses growth ...",
+      "photo_used": false,
+      "status": "success",
+      "post_id": "accounts/115726428088327430200/locations/5986617863041401316/localPosts/2878926341885080707",
+      "error": ""
     }
   ],
-  "last_service_index": 23,
+  "last_service_index": 24,
   "last_post_index": 1
 }
