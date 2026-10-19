@@ -252,8 +252,19 @@
       "status": "success",
       "post_id": "accounts/115726428088327430200/locations/5986617863041401316/localPosts/2878926341885080707",
       "error": ""
+    },
+    {
+      "timestamp": "2026-10-19T09:11:55.213744",
+      "date": "2026-10-19",
+      "service": "Mesotherapy (Hair & Skin)",
+      "category": "Hair & Scalp",
+      "summary_preview": "Noticing more hair fall or skin that looks dull and tired?\n\nMesotherapy (Hair & Skin) is a gentle, m...",
+      "photo_used": false,
+      "status": "success",
+      "post_id": "accounts/115726428088327430200/locations/5986617863041401316/localPosts/2643855263621980607",
+      "error": ""
     }
   ],
-  "last_service_index": 24,
+  "last_service_index": 25,
   "last_post_index": 1
 }
