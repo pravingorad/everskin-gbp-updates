@@ -263,8 +263,19 @@
       "status": "success",
       "post_id": "accounts/115726428088327430200/locations/5986617863041401316/localPosts/2643855263621980607",
       "error": ""
+    },
+    {
+      "timestamp": "2026-10-20T08:47:13.148435",
+      "date": "2026-10-20",
+      "service": "Pico Laser Treatment",
+      "category": "Laser Treatments",
+      "summary_preview": "Dealing with stubborn pigmentation that just won't fade?\n\nPico Laser Treatment uses ultra-short lase...",
+      "photo_used": false,
+      "status": "success",
+      "post_id": "accounts/115726428088327430200/locations/5986617863041401316/localPosts/7506210069401952204",
+      "error": ""
     }
   ],
-  "last_service_index": 25,
+  "last_service_index": 26,
   "last_post_index": 1
 }
