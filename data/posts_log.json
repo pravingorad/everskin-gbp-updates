@@ -285,8 +285,19 @@
       "status": "success",
       "post_id": "accounts/115726428088327430200/locations/5986617863041401316/localPosts/1846696172209133895",
       "error": ""
+    },
+    {
+      "timestamp": "2026-10-22T08:49:32.066190",
+      "date": "2026-10-22",
+      "service": "Acne Scar Treatment",
+      "category": "Skin Conditions",
+      "summary_preview": "Tired of acne scars holding back your confidence? You're not alone.\n\nAcne Scar Treatment at Everskin...",
+      "photo_used": false,
+      "status": "success",
+      "post_id": "accounts/115726428088327430200/locations/5986617863041401316/localPosts/6799184119891148912",
+      "error": ""
     }
   ],
-  "last_service_index": 0,
+  "last_service_index": 1,
   "last_post_index": 1
 }
