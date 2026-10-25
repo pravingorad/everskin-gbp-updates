@@ -318,8 +318,19 @@
       "status": "success",
       "post_id": "accounts/115726428088327430200/locations/5986617863041401316/localPosts/7305606092454008286",
       "error": ""
+    },
+    {
+      "timestamp": "2026-10-25T08:38:02.359182",
+      "date": "2026-10-25",
+      "service": "Anti-Aging Treatment",
+      "category": "Skin Conditions",
+      "summary_preview": "Noticing fine lines and loss of glow that make you look tired, even when you're not?\n\nAnti-Aging Tre...",
+      "photo_used": false,
+      "status": "success",
+      "post_id": "accounts/115726428088327430200/locations/5986617863041401316/localPosts/5429883959989196734",
+      "error": ""
     }
   ],
-  "last_service_index": 3,
+  "last_service_index": 4,
   "last_post_index": 1
 }
