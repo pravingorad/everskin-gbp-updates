@@ -351,8 +351,19 @@
       "status": "success",
       "post_id": "accounts/115726428088327430200/locations/5986617863041401316/localPosts/831631194784493602",
       "error": ""
+    },
+    {
+      "timestamp": "2026-10-28T09:55:41.353371",
+      "date": "2026-10-28",
+      "service": "CO2 Laser Skin Resurfacing",
+      "category": "Laser Treatments",
+      "summary_preview": "Struggling with deep acne scars that makeup can't hide?\n\nCO2 Laser Skin Resurfacing uses focused las...",
+      "photo_used": false,
+      "status": "success",
+      "post_id": "accounts/115726428088327430200/locations/5986617863041401316/localPosts/3057304648851349537",
+      "error": ""
     }
   ],
-  "last_service_index": 6,
+  "last_service_index": 7,
   "last_post_index": 1
 }
