@@ -373,8 +373,19 @@
       "status": "success",
       "post_id": "accounts/115726428088327430200/locations/5986617863041401316/localPosts/1032759773448653843",
       "error": ""
+    },
+    {
+      "timestamp": "2026-10-30T10:20:13.354445",
+      "date": "2026-10-30",
+      "service": "RF Microneedling",
+      "category": "Laser Treatments",
+      "summary_preview": "Noticing acne scars or large pores that makeup can't quite hide anymore?\n\nRF Microneedling combines ...",
+      "photo_used": false,
+      "status": "success",
+      "post_id": "accounts/115726428088327430200/locations/5986617863041401316/localPosts/8388327314173978543",
+      "error": ""
     }
   ],
-  "last_service_index": 8,
+  "last_service_index": 9,
   "last_post_index": 1
 }
