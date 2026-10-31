@@ -384,8 +384,19 @@
       "status": "success",
       "post_id": "accounts/115726428088327430200/locations/5986617863041401316/localPosts/8388327314173978543",
       "error": ""
+    },
+    {
+      "timestamp": "2026-10-31T09:52:38.096908",
+      "date": "2026-10-31",
+      "service": "HIFU Non-Surgical Facelift",
+      "category": "Laser Treatments",
+      "summary_preview": "Noticing loose skin along your jawline or loss of firmness as you age?\n\nHIFU Non-Surgical Facelift u...",
+      "photo_used": false,
+      "status": "success",
+      "post_id": "accounts/115726428088327430200/locations/5986617863041401316/localPosts/349941302967083325",
+      "error": ""
     }
   ],
-  "last_service_index": 9,
+  "last_service_index": 10,
   "last_post_index": 1
 }
