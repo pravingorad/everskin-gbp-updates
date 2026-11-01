@@ -395,8 +395,19 @@
       "status": "success",
       "post_id": "accounts/115726428088327430200/locations/5986617863041401316/localPosts/349941302967083325",
       "error": ""
+    },
+    {
+      "timestamp": "2026-11-01T10:42:58.058091",
+      "date": "2026-11-01",
+      "service": "Photofacial Treatment",
+      "category": "Laser Treatments",
+      "summary_preview": "Noticing stubborn pigmentation or uneven skin tone that makeup can't hide?\n\nPhotofacial Treatment us...",
+      "photo_used": false,
+      "status": "success",
+      "post_id": "accounts/115726428088327430200/locations/5986617863041401316/localPosts/8579842174651198930",
+      "error": ""
     }
   ],
-  "last_service_index": 10,
+  "last_service_index": 11,
   "last_post_index": 1
 }
