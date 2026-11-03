@@ -417,8 +417,19 @@
       "status": "success",
       "post_id": "accounts/115726428088327430200/locations/5986617863041401316/localPosts/4911701802979690178",
       "error": ""
+    },
+    {
+      "timestamp": "2026-11-03T11:11:36.948110",
+      "date": "2026-11-03",
+      "service": "Chemical Peel Treatment",
+      "category": "Peels & Skin Renewal",
+      "summary_preview": "Noticing pigmentation or uneven tone after the monsoon months?\n\nChemical Peel Treatment is a profess...",
+      "photo_used": false,
+      "status": "success",
+      "post_id": "accounts/115726428088327430200/locations/5986617863041401316/localPosts/3508085513987162732",
+      "error": ""
     }
   ],
-  "last_service_index": 12,
+  "last_service_index": 13,
   "last_post_index": 1
 }
