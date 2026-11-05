@@ -439,8 +439,19 @@
       "status": "success",
       "post_id": "accounts/115726428088327430200/locations/5986617863041401316/localPosts/457944658070499274",
       "error": ""
+    },
+    {
+      "timestamp": "2026-11-05T11:20:40.681744",
+      "date": "2026-11-05",
+      "service": "Pumpkin Peel Facial",
+      "category": "Peels & Skin Renewal",
+      "summary_preview": "Dull skin taking the glow off your festive plans?\n\nA Pumpkin Peel Facial is a gentle yet effective t...",
+      "photo_used": false,
+      "status": "success",
+      "post_id": "accounts/115726428088327430200/locations/5986617863041401316/localPosts/8290971011469388203",
+      "error": ""
     }
   ],
-  "last_service_index": 14,
+  "last_service_index": 15,
   "last_post_index": 1
 }
