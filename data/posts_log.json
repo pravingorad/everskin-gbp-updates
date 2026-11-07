@@ -461,8 +461,19 @@
       "status": "success",
       "post_id": "accounts/115726428088327430200/locations/5986617863041401316/localPosts/85359096744860933",
       "error": ""
+    },
+    {
+      "timestamp": "2026-11-07T10:32:59.918629",
+      "date": "2026-11-07",
+      "service": "Vampire Facial (PRP Facial)",
+      "category": "Signature Facials",
+      "summary_preview": "Noticing fine lines starting to show, or has your skin lost its glow?\n\nThe Vampire Facial (PRP Facia...",
+      "photo_used": false,
+      "status": "success",
+      "post_id": "accounts/115726428088327430200/locations/5986617863041401316/localPosts/6620950889240005479",
+      "error": ""
     }
   ],
-  "last_service_index": 16,
+  "last_service_index": 17,
   "last_post_index": 1
 }
